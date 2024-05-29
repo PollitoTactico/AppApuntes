@@ -1,4 +1,4 @@
-namespace AppApuntes;
+namespace AppApuntes.Views;
 
 public partial class ApuntesPage : ContentPage
 {
