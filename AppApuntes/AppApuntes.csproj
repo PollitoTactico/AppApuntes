@@ -63,6 +63,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Views\AllApuntesPage.xaml.cs">
+	    <DependentUpon>AllApuntesPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\AllApuntesPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\Apuntes.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

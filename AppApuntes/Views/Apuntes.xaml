@@ -8,9 +8,12 @@
     </ContentPage.BindingContext>
     <VerticalStackLayout Spacing="10" Margin="10">
         <HorizontalStackLayout Spacing="10">
-            <Image Source="dotnet_bot.png"
-                   SemanticProperties.Description="The dot net bot waving hello!"
-                   HeightRequest="64" />
+            <Image Source="papu.jpg"
+                   SemanticProperties.Description="se acalambra"
+                   HeightRequest="64"
+                   WidthRequest="64"
+                   Aspect="AspectFit"/>
+            
             <Label FontSize="22" FontAttributes="Bold" Text="{Binding Title}" VerticalOptions="End" />
             <Label FontSize="22" Text="{Binding Version}" VerticalOptions="End" />
         </HorizontalStackLayout>

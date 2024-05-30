@@ -5,9 +5,9 @@
              Title="Apuntes">
     <VerticalStackLayout Spacing="10" Margin="5">
         <Editor x:Name="TextEditor"
-                Placeholder="Crea tus apuntes"
+                Text="{Binding Text}"
                 HeightRequest="100" />
-
+        
         <Grid ColumnDefinitions="*,*" ColumnSpacing="4">
             <Button Text="Save"
                     Clicked="SaveButton_Clicked" />
